@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.gonyearaci" version=" 1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>gonyearaci</name>
+<widget id="com.unispry.gonyearaci" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>GonyeAraci</name>
     <description>
-        Bu uygulama Sedat Yazar için Tolga Açgül tarafından yazılmıştır.
+        Bu uygulama inşaat ustaları için gönye aracıdır.
     </description>
     <author email="tolgaacgul@gmail.com" href="https://github.com/tolgaacgul">
-        Tolgaa Acgul
+        Tolga Acgul
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <preference name="android-minSdkVersion" value="12">
-    <preference name="android-targetSdkVersion" value="28">
+
+
+
+    <preference name="android-minSdkVersion" value="12"/>
+    <preference name="android-targetSdkVersion" value="12"/>
+
 
 </widget>
