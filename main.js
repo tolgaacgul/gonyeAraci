@@ -13,6 +13,9 @@ idOk.addEventListener("click", ()=>{
     pC.innerText = Math.sqrt(inputB.value*inputB.value + inputA.value*inputA.value).toFixed(2);
     pC.style.borderBottom = "3px solid red"
     pC.style.color = "blue"
+
+    pA.style.border = "none"
+    pB.style.border = "none"
   }else if(inputA.value && inputC.value){
     pA.innerText = inputA.value
     pC.innerText = inputC.value
